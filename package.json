@@ -1,0 +1,24 @@
+{
+  "name": "recipe-backend",
+  "version": "1.0.0",
+  "description": "backend of recipe app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sink-opuba/recipe-backend.git"
+  },
+  "author": "sink-opuba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sink-opuba/recipe-backend/issues"
+  },
+  "homepage": "https://github.com/sink-opuba/recipe-backend#readme",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "mongoose": "5.7.8"
+  }
+}
